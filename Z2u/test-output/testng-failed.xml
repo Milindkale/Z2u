@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Test.MABTest">
+        <methods>
+          <include name="MAB13"/>
+          <include name="MAB6"/>
+          <include name="MAB14"/>
+          <include name="MAB7"/>
+          <include name="MAB15"/>
+          <include name="MAB8"/>
+          <include name="MAB1"/>
+          <include name="afterTest"/>
+          <include name="MAB5"/>
+          <include name="MAB16"/>
+          <include name="MAB2"/>
+          <include name="MAB3"/>
+          <include name="MAB4"/>
+          <include name="beforeTest"/>
+          <include name="MAB9"/>
+          <include name="MAB10"/>
+          <include name="MAB11"/>
+        </methods>
+      </class> <!-- Test.MABTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
